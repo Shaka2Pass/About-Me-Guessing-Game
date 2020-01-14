@@ -1,0 +1,61 @@
+body {
+    background-color: rgb(199,230,201)
+}
+
+#photo {
+    height: 200px;
+    width: 400px;
+}
+
+#title {
+    font-family:'Montserrat', sans-serif;
+    text-align: center;
+    color: rgb(87,153,129);
+    background-color: rgb(199,230,201);
+}
+
+#introduction {
+    font-family: 'Ibarra Real Nova', serif;
+    text-align: center;
+    color: rgb(73, 136, 113);
+}
+
+#unordered {
+    font-family: 'Ibarra Real Nova', serif;
+    color: rgb(73, 136, 113);
+    display: flexbox;
+}
+
+#ordered {
+    font-family: 'Ibarra Real Nova', serif;
+    color: rgb(73, 136, 113);
+}
+
+#ordered2 {
+    font-family: 'Ibarra Real Nova', serif;
+    color: rgb(73, 136, 113);
+    display: flexbox;
+}
+
+#quizbutton {
+    font-family: 'Ibarra Real Nova', serif;
+    color: rgb(73, 136, 113);text-align: center; 
+}
+
+#results {
+    font-family: 'Ibarra Real Nova', serif;
+    color: rgb(73, 136, 113);text-align: center;
+    display: flex;
+  align-items: center;
+  justify-content: center; 
+}
+
+
+
+
+
+
+
+#beach
+
+#squamish
