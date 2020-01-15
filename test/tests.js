@@ -1,1 +1,4 @@
-import './example.test.js';
+import './compareNumber.test.js';
+
+
+

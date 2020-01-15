@@ -1,6 +1,6 @@
 import numCompare from './numCompare.js';
 
-const inputNumber = document.getElementById("inputNumber");
+const inputNumber = document.getElementById("input-field");
 
 const guessButton = document.getElementById("guess-button");
 
