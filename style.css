@@ -1,0 +1,83 @@
+header {
+text-align: center;
+font-family: fantasy;
+font-size: 40px ;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+#body {
+
+    background-color: rgb(22, 122, 122);
+}
+
+#Instructions {
+
+    font-family: fantasy;
+    font-size: 30px;
+    text-align: center;
+    font-weight: 100;
+
+}
+
+#Actual-Instructions{
+
+    font-family: fantasy;
+    font-size: 15px;
+    text-align: center;
+}
+
+#input-field {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 20%;
+}
+
+#guess-button {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+
+}
+
+#tries-left-text {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  font-size: large;
+  
+}
+
+#tries-left {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  color: red;
+  font-size: larger;
+}
+
+#guess-is {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+#results-are {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+
+

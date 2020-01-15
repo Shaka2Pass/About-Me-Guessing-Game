@@ -16,7 +16,7 @@ const resultShown = document.getElementById("resultShown");
 
 let tries = 5;
 
-let correctGuess = 19;
+let correctGuess = 12;
 
 guessButton.addEventListener ('click', () => {
     tries--;
@@ -26,20 +26,21 @@ guessButton.addEventListener ('click', () => {
 
     if (numCompare(Number(inputNumber.value), correctGuess) === -1) 
     {tooHigh.textContent = 'too low';
-    guessIs.classList.remove('hidden');
+    
     }
 
-    if (numCompare(Number(inputNumber.value), correctGuess) === 1) {tooHigh.textcont = 'too high';
-    guessIs.classList.remove('hidden');}
+    if (numCompare(Number(inputNumber.value), correctGuess) === 1) 
+    {tooHigh.textContent = 'too high';
+    }
 
     if (numCompare(Number(inputNumber.value), correctGuess) === 0) {
-        tooHigh.textContent = 'correct'; guessIs.classList.remove('hidden');
-        resultsAre.classList.remove('hidden');
-        submitButton.disabled = true;
+        tooHigh.textContent = 'correct';
+        resultsAre.textContent = ' YOU WON!';
+        guessButton.disabled = true;
     }
 
     if (tries === 0 && numCompare(Number(inputNumber.value), correctGuess) !==0){
-        submitButton.disabled = true;resultsAre.textContent = 'lost';
+        guessButton.disabled = true;resultsAre.textContent = 'lost';
     }
 });
 
