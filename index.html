@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>Number Guessing Game</title>
+</head>
+
+<body id="body">
+
+<div>
+<header> THE GREAT NUMBER GUESSING GAME</header>
+</div>
+
+<div>
+    <img class="center" src="https://media.istockphoto.com/photos/skeptic-unsure-uncertain-doubts-concept-young-african-guy-in-formal-picture-id936442344?b=1&k=6&m=936442344&s=170x170&h=4zc6hCodBUDPifsaMmaV5__Vwtdci7vAzRdZQErbTz0=" alt="guy thinking" 800 800 /> 
+
+<div>
+
+<div>
+    <Section>
+        <h2 id="Instructions">Instructions</h2>
+        <h3 id="Actual-Instructions">Enter a number between 1 and 20 in the field below. Once you have entered your number click the <em>"Guess a Number"</em>button to see if you guessed correctly.</h3>
+    </Section> 
+
+
+</div>
+    <input type="Number" id= "input-field" min="1" max="20"><br>
+    
+    <button id="guess-button">Guess a Number </button>
+
+    <div>
+        <p id = tries-left-text>Number of Tries Remaining:<span id="tries-left">5</span></p>
+
+        <p class="hidden" id="guess-is">Your guess is:<span id="too-high"></span></p>
+
+        <p class="hidden" id="results-are">You just:<span id="result-shown"></span></p>
+    </div>
+
+
+</div>
+
+</div>
+
+<body>
+
+    <script type="module" src="app.js"></script>
+
+
+</html>
